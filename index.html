@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind Load Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Wind Load Analysis Components</h1>
+        <p>A simple guide to understanding wind load coefficients in building design.</p>
+    </header>
+
+    <section class="component">
+        <h2>1) CPE (External Pressure Coefficient - 6.2.3)</h2>
+        <p>Represents the wind force acting on the exterior surfaces of a building.</p>
+        <h3>Calculation:</h3>
+        <ul>
+            <li><strong>Walls (Clause 6.2.3.1)</strong>: For walls of rectangular clad buildings, refer to Table 5.</li>
+            <li><strong>Pitched, Hipped, and Monoslope Roofs (Clause 6.2.3.2)</strong>: Use Table 6 for coefficients based on roof slope and wind direction.</li>
+            <li><strong>Canopy Roofs (Clause 6.2.3.3)</strong>: Check Tables 8 and 9 for double and mono-pitch canopy roofs.</li>
+        </ul>
+    </section>
+
+    <section class="component">
+        <h2>2) CPI (Internal Pressure Coefficient)</h2>
+        <p>Describes the wind force that permeates through openings (e.g., doors, windows) into the building. It may be positive or negative.</p>
+        <h3>Calculation:</h3>
+        <ul>
+            <li><strong>Small Openings (≤ 5% of wall area)</strong>: Use Cpi = ±0.2.</li>
+            <li><strong>Medium Openings (5-20% of wall area)</strong>: Use Cpi = ±0.5.</li>
+            <li><strong>Large Openings (> 20% of wall area)</strong>: Use Cpi = ±0.7.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Wind Load Analysis Guide. All rights reserved.</p>
+    </footer>
+</body>
+</html>
